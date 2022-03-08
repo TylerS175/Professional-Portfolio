@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #024e76;
+    --secondary-color: #761302;
+    --tertiary-color: #39a6b2;
+}
+
+
+* {
+    box-sizing: border-box;
+    Margin: 0px;
+    Padding: 0px;
+}
+body {
+    color: var(--tertiary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header*/
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url("../Images/blue-stripes.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+}
+header a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px;
+}
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+/* Body Section */
+.background {
+    background-image: url("../Images/blue\ stripes\ 2.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 75%;
+}
+.background-plus {
+    width: 35%;
+    text-align:end;
+    margin: 3.5%;
+}
+.About-You h2 {
+    font-style: bold;
+    font-size: 40px;
+    color: var(--primary-color);
+    border-right: var(--primary-color);
+}
+.About-You p {
+    text-align: center;
+    font-size: 18px;
+    }
+.Creative h2 {
+    font-size: bold;
+    font-size: 40px;
+    color: var(--primary-color);
+}
