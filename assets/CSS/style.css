@@ -99,10 +99,7 @@ header nav ul li a:hover {
     padding: 20px;
     border-right: 5px solid var(--primary-color);
 }
-.About-You p {
-    text-align: center;
-    font-size: 18px;
-    }
+
 .Creative h2 {
     font-size: bold;
     font-size: 40px;
@@ -116,3 +113,4 @@ header nav ul li a:hover {
     list-style: none;
     font-weight: bold;
    }
+
