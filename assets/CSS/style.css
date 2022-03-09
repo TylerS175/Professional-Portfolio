@@ -86,6 +86,7 @@ header nav ul li a:hover {
     font-size: 40px;
     color: var(--primary-color);
     border-right: var(--primary-color);
+    text-align: left;
 }
 .About-You p {
     text-align: center;
