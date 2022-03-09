@@ -25,7 +25,7 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../Images/blue-stripes.png");
+    background-color: rgb(20, 19, 19);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -39,7 +39,12 @@ header h1 {
 }
 header a {
     text-decoration: none;
-    color: var(--primary-color)
+    color: var(--primary-color);
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height:150px;
+    border-color: aliceblue;
 }
 header nav ul {
     display: flex;
