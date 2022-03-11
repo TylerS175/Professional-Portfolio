@@ -99,11 +99,25 @@ header nav ul li a:hover {
     padding: 20px;
     border-right: 5px solid var(--primary-color);
 }
-
+.Creative {
+    display: flex;
+}
 .Creative h2 {
     font-size: bold;
     font-size: 40px;
     color: var(--primary-color);
+    flex: 0 0 30%
+}
+
+.Creative div {
+flex: 0 0 70%;
+}
+
+.Creative div div{
+    display: flex;
+}
+.Creative div div a{
+    flex: 0 0 45%;
 }
 .Reach-Me {
     display: flex;
@@ -113,4 +127,7 @@ header nav ul li a:hover {
     list-style: none;
     font-weight: bold;
    }
+.autobiography {
+    display: flex;
+}
 
