@@ -134,13 +134,9 @@ header nav ul li a:hover {
     margin: 0;
     font-size: 24px;
     color: var(--primary-color);
-    padding: 10px;
     border: 1px solid skyblue;
     background-color: skyblue;
-    border-radius: 20px;
-    position: fixed;
-    flex: 0 0 50%;
-    border-radius: 30px;
+    
 }
 .second-row img {
     width:300px;
@@ -189,7 +185,23 @@ header nav ul li a:hover {
 
  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
  @media screen and (max-width: 980px) {}
-  
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+  header h1 {
+      width: 100%;
+      text-align: center;
+  }
+  header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+  }
+  header nav ul li a {
+      font-size: 20px;
+  }
   
    
     
