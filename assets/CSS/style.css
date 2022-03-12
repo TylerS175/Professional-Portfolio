@@ -11,6 +11,7 @@
 body {
     color: var(--tertiary-color);
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #aab4b9;
 }
 /* Header*/
 
@@ -112,6 +113,7 @@ header nav ul li a:hover {
     display: flex;
     margin: auto;
     padding: 20px;
+    flex-wrap: wrap;
 }
 .Creative h2 {
     font-size: bold;
@@ -122,7 +124,19 @@ header nav ul li a:hover {
     margin: 20px;
     padding: 20px;
 }
-
+.run-buddy {
+    position: relative;
+}
+.run-buddy h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
 .run-buddy img {
     width: 600px;
     height: 600px;
@@ -136,30 +150,28 @@ header nav ul li a:hover {
     color: var(--primary-color);
     border: 1px solid skyblue;
     background-color: skyblue;
+
     
+}
+.second-row{
+    position: relative;
 }
 .second-row img {
     width:300px;
     height:300px;
     outline-style: solid;
     outline-width: 10px;
+    justify-content: space-between;
 }
 .second-row a {
-    font-weight: bold;
-    margin: 0;
-    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--tertiary-color);
     color: var(--primary-color);
-    padding: 10px;
-    border: 1px solid skyblue;
-    background-color: skyblue;
-    border-radius: 20px;
-    position: fixed;
-}
-.third-row img {
-    width: 300px;
-    height: 300px; 
-    outline-style: solid;
-    outline-width: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
 }
 
 /* Contact Me Section */
@@ -180,15 +192,14 @@ header nav ul li a:hover {
 .Reach-Me a {
      padding: 20px;
      margin: auto;
-     flex-wrap:wrap;
+     text-align: center;
 }
 
  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
- @media screen and (max-width: 980px) {}
+ @media screen and (max-width: 980px) {
   header {
       padding-bottom: 0;
       justify-content: center;
-      position: relative;
   }
   header h1 {
       width: 100%;
@@ -202,22 +213,13 @@ header nav ul li a:hover {
   header nav ul li a {
       font-size: 20px;
   }
-  
-   
-    
-    
-  
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
- @media screen and (max-width: 768px) {}
-   
-  
-   
-  
-   
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {}
+  body {
+      width: 100%;
+  }
+    /* MEDIA QUERY FOR TABLETS AND SMALLER */
+ @media screen and (max-width: 768px) {
+   section {
+       padding: 30px 15px;
+   }
 
-     
-
-    
+  
