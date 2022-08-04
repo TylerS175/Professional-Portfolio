@@ -8,9 +8,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.photo {
+    width: 10%;
+    height: auto;
+    padding-left: 1%;
+}
+
 header {
     padding: 20px 35px;
-    background-color: #f1f1f1;
+    background-color: #024e76;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -26,13 +32,13 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: #000;
+    color: #024e76;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
-    color: #000;
+    color: #fce138;
 }
 header nav {
     margin: 7px 0;
@@ -141,7 +147,7 @@ section {
 
 .section p, .section a {
     line-height: 1.5;
-    color: #fce138;
+    color: rgb(11, 11, 12);
     width: 80%;
     margin: 0 auto;
     font-size: 30px;
@@ -185,4 +191,106 @@ section {
     margin: 0 auto 0 auto;
     flex-direction: row;
     width: 100%;
+}
+
+.main-project2 {
+    background-image: url('../Images/run-buddy-preview.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    border: blue 5px solid;
+    position: relative;
+}
+.main-project2:hover {
+    opacity: 75%;
+}
+.horiseon {
+    background-image: url('../Images/horiseon-preview.png');
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: blue 5px solid;
+    position: relative;
+}
+.horiseon:hover {
+    opacity: 75%;
+}
+.brewery {
+    background-image: url('../Images/Tabs\ Page.png');
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: blue 5px solid;
+    position: relative;
+}
+.brewery:hover {
+    opacity: 75%;
+}
+.sport {
+    background-image: url('../Images/SportSeekers.png');
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: blue 5px solid;
+    position: relative;
+}
+.sport:hover {
+    opacity: 75%;
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-title {
+        width: 20%;
+    }
+}
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+  
+    .section p {
+      width: 100%;
+    }
 }
