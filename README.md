@@ -46,6 +46,8 @@
   [GitHub](https://github.com/TylerS175 / Tyler Shifflett)
   [Email: tylerwshifflett@gmail.com](mailto:tylerwshifflett@gmail.com)
 
+![screenshot](/assets/Images/)
+
 Link:  
 
 Github:
@@ -53,6 +55,7 @@ https://github.com/TylerS175/Professional-Portfolio.git
 
 Website:
 https://tylers175.github.io/Professional-Portfolio/
+
 
 
 
