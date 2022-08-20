@@ -103,9 +103,9 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    font-size: 35px;
+    font-size: 30px;
     color: #fce138;
-    margin: 0 auto 0 auto;
+    margin: 0 0 0 110px;
     padding-right: 15px;
     width: 10px;
     text-align: end;
