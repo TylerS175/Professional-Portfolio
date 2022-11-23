@@ -205,8 +205,8 @@ section {
 .main-project2:hover {
     opacity: 75%;
 }
-.horiseon {
-    background-image: url('../Images/horiseon-preview.png');
+.email {
+    background-image: url('../Images/HTMLDeveloper1.png');
     background-size: cover;
     width: 47.5%;
     height: 300px;
